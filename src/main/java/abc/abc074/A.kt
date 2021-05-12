@@ -1,5 +1,7 @@
 package abc.abc074
 
+import nextInt
+
 fun main() {
     val N = nextInt()
     val A = nextInt()
@@ -7,6 +9,3 @@ fun main() {
     val blackNum = entireNum - A
     println(blackNum)
 }
-
-fun next() = readLine()!!
-fun nextInt() = next().toInt()

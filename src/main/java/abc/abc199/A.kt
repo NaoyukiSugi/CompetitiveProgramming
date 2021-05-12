@@ -1,5 +1,7 @@
 package abc.abc199
 
+import nextIntList
+
 fun main() {
     val (a, b, c) = nextIntList()
     if (a * a + b * b < c * c) {
@@ -8,6 +10,3 @@ fun main() {
         println("No")
     }
 }
-
-fun next() = readLine()!!
-fun nextIntList() = next().split(" ").map { it.toInt() }
