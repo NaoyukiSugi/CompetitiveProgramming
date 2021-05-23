@@ -12,7 +12,7 @@ repositories {
 }
 
 application {
-    mainClassName = 'abc.abc199.BKt'
+    mainClassName = 'abc.abc001.AKt'
 }
 
 run {
