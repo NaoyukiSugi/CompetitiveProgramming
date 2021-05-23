@@ -9,5 +9,5 @@ fun main() {
         val t = nextInt()
         tList.add(t)
     }
-    println(tList.minOrNull())
+    println(tList.min())
 }
