@@ -4,5 +4,5 @@ import nextInt
 
 fun main() {
     val n = nextInt()
-    println((n + 1) % 12)
+    println(n % 12 + 1)
 }
